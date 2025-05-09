@@ -1,6 +1,6 @@
 function TaskItem({ task, onDelete, onToggle }) {
     return (
-        <div className="flex justify-between items-center p-2 bg-white shadow rounded">
+        <div className="flex justify-between items-center p-2 bg-white shadow rounded text-black">
             <div className="flex items-center gap-2">
                 <input
                     type="checkbox"
