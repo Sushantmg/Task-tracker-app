@@ -1,4 +1,5 @@
 import Home from './pages/Home';
+import Users from './pages/User';
 import useDarkMode from './hooks/useDarkMode';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
       <h1 className="text-3xl font-bold text-center mb-6">Task Tracker</h1>
       <Home />
+      <Users />
     </div>
   );
 }
